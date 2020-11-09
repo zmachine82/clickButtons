@@ -1,18 +1,45 @@
-.container-fluid {
+.container {
   background: #d3d3d3;
 }
 
 .home-contents {
   height: 80vh;
+  display: flex;
+  flex-direction: column;
 }
 
-.color-button-container {
+p {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 4px;
+}
+
+button {
+  margin-top: 12px;
+}
+
+.col-12 {
+  height: 80vh;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.color-container {
   background: grey;
   height: 100px;
   width: 200px;
   border-width: 3px;
   border-style: solid;
+  border-radius: 5px;
 }
+
+// .color-title {
+//   margin-left: 20px;
+// }
 
 .owen-wilson-container {
   background: orange;
@@ -20,7 +47,7 @@
   width: 200px;
   border-width: 3px;
   border-style: solid;
-  margin-left: 30px;
+  border-radius: 5px;
 }
 
 .size-button-container {
@@ -29,6 +56,6 @@
   width: 200px;
   border-width: 3px;
   border-style: solid;
-  margin-left: 60px;
+  border-radius: 5px;
 }
 

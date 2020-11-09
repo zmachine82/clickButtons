@@ -1,8 +1,9 @@
 .navbar {
   height: 80px;
-  width: 100%;
   background: linear-gradient(white, blue);
   text-align: center;
+  border-width: 2px;
+  border-style: solid;
 }
 
 .navbar-title {
@@ -11,4 +12,5 @@
 
 h1 {
   font-weight: bold;
+  font-size: 30px;
 }
