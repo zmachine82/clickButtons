@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "clickButtons"
+    }
+  },
+  "defaultProject": "clickButtons",
+  "cli": {
+    "analytics": "540c659b-4405-46f2-9901-6e17f74ddacb"
+  }
 }
