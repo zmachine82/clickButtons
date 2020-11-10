@@ -20,7 +20,7 @@ button {
 }
 
 .col-12 {
-  height: 80vh;
+  height: 100vh;
   width: 100%;
 }
 
@@ -30,7 +30,7 @@ ul {
 
 .color-container {
   background: grey;
-  height: 100px;
+  height: 150px;
   width: 200px;
   border-width: 3px;
   border-style: solid;
@@ -59,3 +59,11 @@ ul {
   border-radius: 5px;
 }
 
+.audio-container {
+  background: rgb(102, 233, 113);
+  height: 100px;
+  width: 200px;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 5px;
+}
