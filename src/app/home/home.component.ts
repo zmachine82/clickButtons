@@ -7,18 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
   color: boolean = false
-  background: [
-    'green',
-    'yellow',
-    'blue',
-    'purple',
-    'orange'
-  ]
+  randomColor = []
+garbageColor = 'brown'
   backgroundColor: string
   constructor() { }
 
   ngOnInit(): void {
-    debugger
     this.switchBackground();
   }
 
@@ -27,10 +21,20 @@ export class HomeComponent implements OnInit {
   }
 
   switchBackground() {
-    let something = this.background[Math.floor(Math.random() * this.background.length)]
-    something.toString
-    console.log(something)
+   this.randomColor = [
+      'green',
+      'yellow',
+      'blue',
+      'purple',
+      'orange'
+    ]
+    let something = this.randomColor[Math.floor(Math.random() * this.randomColor.length)]
+    this.randomColor = []
+    this.randomColor.push(something)
 }
 
+  enlarge() {
+    //size-button-container ++ height and width &&move position right
+  }
 
 }
