@@ -13,14 +13,13 @@ garbageColor = 'brown'
   constructor() { }
 
   ngOnInit(): void {
-    this.switchBackground();
   }
 
   switchColor() {
     this.color = !this.color
   }
 
-  switchBackground() {
+  switchBackground(color: string) {
    this.randomColor = [
       'green',
       'yellow',
@@ -29,8 +28,8 @@ garbageColor = 'brown'
       'orange'
     ]
     let something = this.randomColor[Math.floor(Math.random() * this.randomColor.length)]
-    this.randomColor = []
-    this.randomColor.push(something)
+    color = something
+    return color
 }
 
 audioPlay(){

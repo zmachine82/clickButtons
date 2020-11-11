@@ -9,7 +9,7 @@
             <p>Color Changer</p>
             <mat-divider></mat-divider>
             <button mat-raised-button (click)="switchColor();" [ngClass]="color ? 'true' : 'switchColor' ">Change Color</button>
-            <button mat-raised-button (click)="switchBackground();" [style]="'background-color: red'">Background Color</button>
+            <button mat-raised-button (click)="switchBackground(color);" [style.background-color]="'switchBackgroundColor(color)'">Background Color</button>
           </div>
         </div>
         </li>
