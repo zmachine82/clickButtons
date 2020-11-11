@@ -6,9 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-  color: boolean = false
-  randomColor = []
-garbageColor = 'brown'
+  colorBoolean: boolean = false
+  randomColor: string;
+  garbageColor = 'brown'
   backgroundColor: string
   constructor() { }
 
@@ -16,20 +16,18 @@ garbageColor = 'brown'
   }
 
   switchColor() {
-    this.color = !this.color
+    this.colorBoolean = !this.colorBoolean
   }
 
-  switchBackground(color: string) {
-   this.randomColor = [
+  switchBackground() {
+   const randomColorArray = [
       'green',
       'yellow',
       'blue',
       'purple',
       'orange'
-    ]
-    let something = this.randomColor[Math.floor(Math.random() * this.randomColor.length)]
-    color = something
-    return color
+    ];
+    this.randomColor = randomColorArray[Math.floor(Math.random() * randomColorArray.length)]
 }
 
 audioPlay(){
