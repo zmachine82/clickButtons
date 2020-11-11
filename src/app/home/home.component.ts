@@ -33,6 +33,10 @@ garbageColor = 'brown'
     this.randomColor.push(something)
 }
 
+audioPlay(){
+
+}
+
   enlarge() {
     //size-button-container ++ height and width &&move position right
   }
