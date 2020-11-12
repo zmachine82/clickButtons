@@ -1,7 +1,8 @@
 .container {
-  background-image: url('./assets/images/randomPictures/pushingButtons.jpg');
-  height: 100px;
-  width: 100px;
+  background: linear-gradient(to right,white,rgb(53, 218, 240));
+  // background-image: url('assets/images/randomPictures/pushingButtons.jpg');
+  // height: 500px;
+  // width: 500px;
 }
 
 .home-contents {
@@ -67,6 +68,15 @@ ul {
 
 .audio-container {
   background: rgb(102, 233, 113);
+  height: 100px;
+  width: 200px;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+.random-button-container {
+  background: red;
   height: 100px;
   width: 200px;
   border-width: 3px;
