@@ -13,7 +13,15 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    debugger
   }
+
+  changePicture() {
+    var img = new Image();
+    img.src='./assets/images/owen_wilson/wow.jpg';
+    document.getElementById('wow');
+  }
+
 
   switchColor() {
     this.colorBoolean = !this.colorBoolean
