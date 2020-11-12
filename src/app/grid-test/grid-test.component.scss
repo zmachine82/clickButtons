@@ -1,0 +1,17 @@
+.container {
+background: blue;
+height:600px;
+width:800px;
+display:flex;
+flex-direction: column;
+justify-content: flex-start;
+}
+
+p {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  padding: 30px;
+  // height: 30px;
+  // width: 30px;
+}

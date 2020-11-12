@@ -8,12 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
   colorBoolean: boolean = false
   randomColor: string;
-  garbageColor = 'brown'
+  textColor: string;
   backgroundColor: string
   constructor() { }
 
   ngOnInit(): void {
-    debugger
   }
 
   changePicture() {
@@ -23,9 +22,9 @@ export class HomeComponent implements OnInit {
   }
 
 
-  switchColor() {
-    this.colorBoolean = !this.colorBoolean
-  }
+  // switchColor() {
+  //   this.colorBoolean = !this.colorBoolean
+  // }
 
   switchBackground() {
    const randomColorArray = [
@@ -39,6 +38,19 @@ export class HomeComponent implements OnInit {
       'lightgreen'
     ];
     this.randomColor = randomColorArray[Math.floor(Math.random() * randomColorArray.length)]
+}
+  switchColor() {
+   const randomColorArray = [
+      'green',
+      'yellow',
+      'blue',
+      'purple',
+      'orange',
+      'red',
+      'pink',
+      'lightgreen'
+    ];
+    this.textColor = randomColorArray[Math.floor(Math.random() * randomColorArray.length)]
 }
 
 audioPlay(){

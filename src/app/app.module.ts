@@ -12,6 +12,7 @@ import { FooterComponent } from './footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './home/home.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { GridTestComponent } from './grid-test/grid-test.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     NavbarComponent,
     FooterComponent,
     HomeComponent,
+    GridTestComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,90 +1,34 @@
 <div class="container">
-  <!-- <div CREATE MAT GRID LIST HERE> -->
-    <div class="col-12 text-center">
       <br>
-      <ul>
-        <li>
         <div class="color-container" [ngStyle]="{'background-color': randomColor}">  <!--Why is [ngStyle] here/What is it doing?-->
-          <div class="color-title">
-            <p>Color Changer</p>
+            <p id="color-title">Color Changer</p>
             <mat-divider></mat-divider>
-            <button mat-raised-button (click)="switchColor()" [ngClass]="colorBoolean ? 'true' : 'switchColor' ">Black or Red?</button>
-            <button mat-raised-button (click)="switchBackground()" >Background Color</button>
-          </div>
+            <button mat-raised-button (click)="switchColor()" [ngStyle]="{'color': textColor}">Text Color</button>
+            <button mat-raised-button (click)="switchBackground()">Background Color</button>
         </div>
-        </li>
         <br>
-        <li>
         <div class="owen-wilson-container">
-          <div class="owen-wilson-title">
+          <!-- <div class="owen-wilson-title"> -->
             <p>Owen Wilson Button</p>
             <mat-divider></mat-divider>
             <button mat-raised-button (click)="changePicture()">Wow!</button>
             <!-- <img style="display:none;" id="defaultPic" src="./assets/images/wow.jpg";/> -->
-          </div>
+          <!-- </div> -->
         </div>
-        </li>
         <br>
-        <li>
         <div class="size-button-container">
-          <div class="size-title">
+          <!-- <div class="size-title"> -->
             <p>Size Button</p>
             <mat-divider></mat-divider>
             <button mat-raised-button>ReSize Me</button>
-          </div>
+          <!-- </div> -->
         </div>
-        </li>
         <br>
-        <li>
         <div class="audio-container">
-          <div class="size-title">
+          <!-- <div class="size-title"> -->
             <p>Audio Button</p>
             <mat-divider></mat-divider>
             <button mat-raised-button (click)="audioPlay();">LISTEN UP</button>
-          </div>
+          <!-- </div> -->
         </div>
-        <!-- </li>
-        <br>
-        <li>
-        <div class="random-button-container">
-          <div class="random-title">
-            <p>Random Button</p>
-            <mat-divider></mat-divider>
-            <button mat-raised-button>Help me find a function</button>
-          </div>
-        </div>
-        </li>
-        <br>
-        <li>
-        <div class="random-button-container">
-          <div class="random-title">
-            <p>Random Button</p>
-            <mat-divider></mat-divider>
-            <button mat-raised-button>Help me find a function</button>
-          </div>
-        </div>
-        </li>
-        <br>
-        <li>
-        <div class="random-button-container">
-          <div class="random-title">
-            <p>Random Button</p>
-            <mat-divider></mat-divider>
-            <button mat-raised-button>Help find me a function</button>
-          </div>
-        </div>
-        </li>
-        <br>
-        <li>
-        <div class="random-button-container">
-          <div class="random-title">
-            <p>Random Button</p>
-            <mat-divider></mat-divider>
-            <button mat-raised-button>Help find me a function</button>
-          </div>
-        </div>
-        </li> -->
-      </ul>
     </div>
-  <!-- </div> -->
-</div>
