@@ -25,7 +25,10 @@ export class HomeComponent implements OnInit {
       'yellow',
       'blue',
       'purple',
-      'orange'
+      'orange',
+      'red',
+      'pink',
+      'lightgreen'
     ];
     this.randomColor = randomColorArray[Math.floor(Math.random() * randomColorArray.length)]
 }

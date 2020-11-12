@@ -19,6 +19,10 @@ button {
   margin-top: 12px;
 }
 
+button:hover {
+  background: linear-gradient(lightblue,white,white,lightblue);
+}
+
 .col-12 {
   height: 100vh;
   width: 100%;

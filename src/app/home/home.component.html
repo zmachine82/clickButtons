@@ -4,11 +4,11 @@
       <br>
       <ul>
         <li>
-        <div class="color-container" [ngStyle]="{'background-color': randomColor}">
+        <div class="color-container" [ngStyle]="{'background-color': randomColor}">  <!--Why is [ngStyle] here/What is it doing?-->
           <div class="color-title">
             <p>Color Changer</p>
             <mat-divider></mat-divider>
-            <button mat-raised-button (click)="switchColor();" [ngClass]="colorBoolean ? 'true' : 'switchColor' ">Change Color</button>
+            <button mat-raised-button (click)="switchColor()" [ngClass]="colorBoolean ? 'true' : 'switchColor' ">Change Color</button>
             <button mat-raised-button (click)="switchBackground()" >Background Color</button>
           </div>
         </div>
@@ -19,7 +19,7 @@
           <div class="owen-wilson-title">
             <p>Owen Wilson Button</p>
             <mat-divider></mat-divider>
-            <button mat-raised-button (click)="enlarge();">Wow!</button>
+            <button mat-raised-button (click)="enlarge()">Wow!</button>
           </div>
         </div>
         </li>
