@@ -21,11 +21,6 @@ export class HomeComponent implements OnInit {
     document.getElementById('wow');
   }
 
-
-  // switchColor() {
-  //   this.colorBoolean = !this.colorBoolean
-  // }
-
   switchBackground() {
    const randomColorArray = [
       'green',
@@ -53,7 +48,7 @@ export class HomeComponent implements OnInit {
     this.textColor = randomColorArray[Math.floor(Math.random() * randomColorArray.length)]
 }
 
-audioPlay(){
+  audioPlay(){
 
 }
 
