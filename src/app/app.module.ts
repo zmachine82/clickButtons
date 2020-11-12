@@ -13,6 +13,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './home/home.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { GridTestComponent } from './grid-test/grid-test.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
+import { AuthorisedTopNavComponent } from './layout/authorised/authorised-top-nav/authorised-top-nav.component';
+import { AuthorisedSideNavTogglerComponent } from './layout/authorised/authorised-side-nav-toggler/authorised-side-nav-toggler.component';
+import { AuthorisedSideNavComponent } from './layout/authorised/authorised-side-nav/authorised-side-nav.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +25,10 @@ import { GridTestComponent } from './grid-test/grid-test.component';
     FooterComponent,
     HomeComponent,
     GridTestComponent,
+    SidebarComponent,
+    AuthorisedTopNavComponent,
+    AuthorisedSideNavTogglerComponent,
+    AuthorisedSideNavComponent,
   ],
   imports: [
     BrowserModule,
