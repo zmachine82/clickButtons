@@ -1,14 +1,9 @@
 .container {
   background: linear-gradient(to right,white,rgb(53, 218, 240));
   // background-image: url('assets/images/randomPictures/pushingButtons.jpg');
-  // height: 500px;
-  // width: 500px;
-}
-
-.home-contents {
-  height: 80vh;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
+  // flex-direction: row;
 }
 
 p {
