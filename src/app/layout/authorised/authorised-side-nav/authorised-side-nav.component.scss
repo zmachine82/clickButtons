@@ -63,7 +63,7 @@ button:focus {
   display: block;
   width: 100%;
   &:hover {
-    background: linear-gradient(pink,white,white,pink);
+    background: linear-gradient(to right,pink,white,white,pink);
   }
 }
 
