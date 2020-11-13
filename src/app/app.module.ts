@@ -1,6 +1,7 @@
 import { MatGridListModule } from '@angular/material/grid-list'
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon'
 import { MatDividerModule } from '@angular/material/divider';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -13,7 +14,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './home/home.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { GridTestComponent } from './grid-test/grid-test.component';
-// import { SidebarComponent } from './sidebar/sidebar.component';
 import { AuthorisedTopNavComponent } from './layout/authorised/authorised-top-nav/authorised-top-nav.component';
 import { AuthorisedSideNavTogglerComponent } from './layout/authorised/authorised-side-nav-toggler/authorised-side-nav-toggler.component';
 import { AuthorisedSideNavComponent } from './layout/authorised/authorised-side-nav/authorised-side-nav.component';
@@ -25,7 +25,6 @@ import { AuthorisedSideNavComponent } from './layout/authorised/authorised-side-
     FooterComponent,
     HomeComponent,
     GridTestComponent,
-    // SidebarComponent,
     AuthorisedTopNavComponent,
     AuthorisedSideNavTogglerComponent,
     AuthorisedSideNavComponent,
@@ -38,7 +37,8 @@ import { AuthorisedSideNavComponent } from './layout/authorised/authorised-side-
     MatButtonModule,
     MatDividerModule,
     FlexLayoutModule,
-    MatGridListModule
+    MatGridListModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
