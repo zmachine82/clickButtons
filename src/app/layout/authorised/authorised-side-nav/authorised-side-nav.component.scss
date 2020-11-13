@@ -2,6 +2,16 @@
   background: rgb(56, 199, 120);
 }
 
+#toggle-button {
+  background: red;
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  left: 205px;
+  top: 125px;
+  border-radius: 4px;
+}
+
 #sidebar {
   min-width: 200px;
   max-width: 200px;
@@ -29,10 +39,6 @@ ul {
 li {
   padding: 20px;
   color: black;
-}
-
-button {
-  height: 20px;
 }
 
 button[data-toggle="collapse"] {
@@ -70,4 +76,12 @@ button:focus {
 hr {
   border-top: 1px solid #fff;
   margin-top: 0;
+}
+
+.navbar-nav{
+margin: 0;
+}
+
+.nav-link {
+  padding-top:50px;
 }

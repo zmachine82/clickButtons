@@ -1,4 +1,5 @@
-<nav id="sidebar" class="navbar-dark bg-dark" [ngClass]="{'hidden': sideNavService.hideSideNav }">
+<nav id="sidebar" class="navbar-dark bg-dark" [ngClass]="{'hidden': hideSideNav }">
+  <button id="toggle-button" (click)="toggleSideNav()"></button>
   <ul class="navbar-nav">
     <li class="nav-item active">
       <button mat-raised-button class="nav-link" href="#">Home Page</button>
