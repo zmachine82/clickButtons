@@ -1,5 +1,5 @@
 :host {
-  background: mediumseagreen;
+  background: rgb(56, 199, 120);
 }
 
 #sidebar {
@@ -11,13 +11,19 @@
   font-weight: 300;
   font-size: 1rem;
   line-height: 1.5;
+  background: lightseagreen;
 }
 
 #sidebar.hidden {
   margin-left: -200px;
 }
 
-a[data-toggle="collapse"] {
+button {
+  // height: 30px;
+  // width: 30px;
+}
+
+button[data-toggle="collapse"] {
   position: relative;
 }
 
@@ -30,9 +36,9 @@ a[data-toggle="collapse"] {
   }
 }
 
-a,
-a:hover,
-a:focus {
+button,
+button:hover,
+button:focus {
   color: inherit;
 }
 
@@ -40,7 +46,7 @@ a:focus {
   padding: 20px;
 }
 
-#sidebar ul li a {
+#sidebar ul li button {
   padding: 15px;
   display: block;
   width: 100%;
