@@ -11,16 +11,28 @@
   font-weight: 300;
   font-size: 1rem;
   line-height: 1.5;
-  background: lightseagreen;
+  background:linear-gradient(cyan,magenta);
 }
 
 #sidebar.hidden {
   margin-left: -200px;
 }
 
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  // margin-right: 30px;
+  // align-items: center;
+}
+
+li {
+  padding: 20px;
+  color: black;
+}
+
 button {
-  // height: 30px;
-  // width: 30px;
+  height: 20px;
 }
 
 button[data-toggle="collapse"] {
@@ -51,7 +63,7 @@ button:focus {
   display: block;
   width: 100%;
   &:hover {
-    background-color: lightcoral;
+    background: linear-gradient(pink,white,white,pink);
   }
 }
 
