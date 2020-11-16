@@ -8,11 +8,25 @@
   width: 55px;
   position: absolute;
   left: 210px;
-  top: 150px;
+  top: 120px;
   border-radius: 20px;
   border-width: 3px;
   border-style: solid;
   border-color: black;
+  transition: all 0.3s;
+  outline: none;
+}
+
+.material-icons {
+  position: absolute;
+  left: 225px;
+  top: 125px;
+  color: white;
+  transition: all 0.3s;
+}
+
+.material-icons.hidden {
+  margin-left: -200px;
 }
 
 #toggle-button.hidden {
@@ -29,6 +43,9 @@
   font-size: 1rem;
   line-height: 1.5;
   background:linear-gradient(cyan,magenta);
+  // border-right: black;
+  // border-style: solid;
+  // border-width: 2px;
 }
 
 #sidebar.hidden {
@@ -39,8 +56,6 @@ ul {
   list-style-type: none;
   display: flex;
   flex-direction: column;
-  // margin-right: 30px;
-  // align-items: center;
 }
 
 li {
@@ -72,9 +87,10 @@ button[data-toggle="collapse"] {
 }
 
 #sidebar ul li button {
-  padding: 15px;
+  padding: 10px;
   display: block;
   width: 100%;
+  background: linear-gradient(white,lightgray);
   &:hover {
     background: linear-gradient(to right,pink,white,white,pink);
   }
@@ -85,12 +101,8 @@ hr {
   margin-top: 0;
 }
 
-.navbar-nav{
+.navbar-nav {
 margin: 0;
 }
 
 
-
-.nav-item {
-  padding: 10px;
-}

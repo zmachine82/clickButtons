@@ -9,6 +9,7 @@ import { Output, EventEmitter } from '@angular/core';
 })
 export class AuthorisedSideNavComponent implements OnInit {
   hideSideNav: boolean = false
+  hideToggleButton: boolean = false
 
   constructor(public sideNavService: AuthorisedSideNavService) { }
 
@@ -17,6 +18,7 @@ export class AuthorisedSideNavComponent implements OnInit {
 
   toggleSideNav(): void {
     this.hideSideNav = !this.hideSideNav;
+    this.hideToggleButton = !this.hideToggleButton;
   }
 
 }

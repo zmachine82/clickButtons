@@ -1,5 +1,6 @@
-<nav id="sidebar" class="navbar-dark bg-dark" [ngClass]="{'hidden': hideSideNav }">
-  <button id="toggle-button" (click)="toggleSideNav()">Add Icon</button>
+<nav id="sidebar" class="navbar-dark bg-dark" [ngClass]="{'hidden': hideSideNav}">
+  <button id="toggle-button" (click)="toggleSideNav()" [ngClass]="{'hidden': hideToggleButton}"></button>
+  <i class="material-icons" [ngClass]="{'hidden': hideToggleButton}">menu_open</i>
   <ul class="navbar-nav">
     <li class="nav-item active">
       <button mat-raised-button class="nav-link" href="#">Home Page</button>
