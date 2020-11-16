@@ -1,8 +1,7 @@
 .home-container {
-  // background: linear-gradient(to right,white,rgb(49, 63, 250));
-  background: linear-gradient(217deg, rgba(88, 151, 235, 0.8), rgba(231, 74, 252, 0.938) 70.71%),
-            linear-gradient(18deg, rgba(70, 205, 247, 0.918), rgba(0,0,255,0) 70.71%);
-  // background-image: url('assets/images/randomPictures/pushingButtons.jpg');
+  background: linear-gradient(to right,white,rgb(49, 63, 250));
+  // background: linear-gradient(217deg, rgba(88, 151, 235, 0.8), rgba(80, 252, 74, 0.938) 70.71%),
+  //             linear-gradient(18deg, rgba(70, 205, 247, 0.918), rgba(0, 225, 255, 0.952) 70.71%);
   height: 100vh;
   width: 100%;
   display: flex;
@@ -10,9 +9,10 @@
 
 .button-container {
   display: flex;
-  flex-direction: row;
-  margin-left: 80px;
+  flex-wrap: wrap;
+  margin-left: 70px;
   padding: 20px;
+  // width: 100vw;
 }
 
 p {
@@ -31,56 +31,62 @@ button:hover {
   background: linear-gradient(lightblue,white,white,lightblue);
 }
 
-.color-container {
+#color-container {
   background: grey;
   height: 150px;
   width: 200px;
   border-width: 3px;
   border-style: solid;
   border-radius: 5px;
-
+  margin-right: 10px;
 }
 
 // .color-title {
 //   margin-left: 20px;
 // }
 
-.owen-wilson-container {
+#owen-wilson-container {
   background: orange;
   height: 100px;
   width: 200px;
   border-width: 3px;
   border-style: solid;
   border-radius: 5px;
+  margin-right: 10px;
 }
 
-.size-button-container {
+#size-button-container {
   background: rgb(142, 142, 241);
   height: 100px;
   width: 200px;
   border-width: 3px;
   border-style: solid;
   border-radius: 5px;
+  margin-right: 10px;
 }
 
-.audio-container {
+#audio-container {
   background: rgb(102, 233, 113);
   height: 100px;
   width: 200px;
   border-width: 3px;
   border-style: solid;
   border-radius: 5px;
+  margin-right: 10px;
 }
 
-.random-button-container {
+#random-container {
   background: red;
   height: 100px;
   width: 200px;
   border-width: 3px;
   border-style: solid;
   border-radius: 5px;
+  margin-right: 10px;
+  // margin-top: -180px;
 }
 
 .switchColor {
   color: red;
 }
+

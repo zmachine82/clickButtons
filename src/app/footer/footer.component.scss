@@ -1,18 +1,16 @@
 .footer-container {
-  background: blue;
-  // height: 80px;
+  display: flex;
+  background: radial-gradient(white,white, purple);  // height: 80px;
   border: black;
   border-width: 1px;
   border-style: solid;
   border-radius: 5px;
+  justify-content: center;
+  // margin-top: -10px;
 }
 
-.footer-title {
+h3 {
+  font-family: Lobster-Regular;
+  font-size: 40px;
   padding-top: 20px;
-}
-
-p {
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
 }

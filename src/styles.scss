@@ -2,3 +2,18 @@
 
 html, body { height: 100%; }
 body { margin: 0px; padding: 0px; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+@font-face {
+    font-family: GreatVibes-Regular;
+    src: url(/assets/fonts/GreatVibes-Regular.ttf) format("opentype");
+  }
+
+  @font-face {
+    font-family: PermanentMarker-Regular;
+    src: url(/assets/fonts/PermanentMarker-Regular.ttf) format("opentype");
+  }
+
+  @font-face {
+    font-family: Lobster-Regular;
+    src: url(/assets/fonts/Lobster-Regular.ttf) format("opentype");
+  }

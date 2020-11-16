@@ -1,18 +1,19 @@
 .navbar {
   background: linear-gradient(white, cyan);
+  height: 80px;
   padding: 0%;
 }
 
 h3 {
-  @font-face {
-    font-family: GreatVibes-Regular;
-    src: url(/assets/fonts/GreatVibes-Regular.ttf) format("opentype");
-  }
-  font-size: 50px;
-  font-weight: bold;
+  font-family: Lobster-Regular;
+  font-size: 60px;
+  text-shadow: rgb(0, 255, 21) 2px 0 10px;
   margin: 0;
-  padding-top: 20px;
-  padding-left: 20px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  // padding-top: 30px;
+  // padding-left: 20px;
 }
 
 // .nav-buttons {
@@ -22,7 +23,9 @@ h3 {
 
 button {
   width: auto;
-  background: linear-gradient(white, lightgray);
+  background: linear-gradient(white, lightpink);
+  font-family: PermanentMarker-Regular;
+  font-size: 20px;
 }
 
 button:hover {
@@ -33,13 +36,13 @@ ul {
   display: flex;
   flex-direction: row;
   list-style-type: none;
-  margin: 0;
   direction: rtl;
   padding: 10px;
 }
 
 li {
   padding-left: 10px;
+  padding-top: 20px;
 }
 
 // .nav-button {

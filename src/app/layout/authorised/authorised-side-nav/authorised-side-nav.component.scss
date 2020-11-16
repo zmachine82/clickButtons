@@ -76,12 +76,6 @@ button[data-toggle="collapse"] {
   }
 }
 
-// button,
-// button:hover,
-// button:focus {
-//   color: inherit;
-// }
-
 #sidebar .sidebar-header {
   padding: 20px;
 }
@@ -89,7 +83,9 @@ button[data-toggle="collapse"] {
 #sidebar ul li button {
   padding: 10px;
   display: block;
-  width: 100%;
+  width: auto;
+  margin-left: -40px;
+  font-family: PermanentMarker-Regular;
   background: linear-gradient(white,lightgray);
   &:hover {
     background: linear-gradient(to right,pink,white,white,pink);
