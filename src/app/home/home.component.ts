@@ -16,6 +16,7 @@ export class HomeComponent implements OnInit {
   randomAudioClip: string
   isVisible: boolean = true
   size: number = 100
+
   constructor() { }
 
   ngOnInit(): void {
@@ -70,9 +71,7 @@ export class HomeComponent implements OnInit {
   }
 
   enlarge() {
-    this.size + 10
-    //number=0 this.size +=1;
-
+    this.size += 10
   }
 
   owenWilsonAudio() {

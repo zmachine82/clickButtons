@@ -22,11 +22,11 @@
     <!-- <img style="display:none;" id="defaultPic" src="./assets/images/wow.jpg";/> -->
   </div>
   <br />
-  <div id="size-button-container" [style.height.px]='size'>
+  <div id="size-button-container" [style.height]="size + 'px'">
     <p>Size Button</p>
     <mat-divider></mat-divider>
     <button mat-raised-button (click)="enlarge()">
-      ReSize Me
+      Make Me Grow
     </button>
   </div>
   <br />
