@@ -10,6 +10,7 @@
     <button mat-raised-button (click)="switchBackground()">
       Background Color
     </button>
+    <button mat-raised-button (click)="switchButtonBackgroundColor()" [ngStyle]="{background: buttonBackgroundColor}">Button Background</button>
   </div>
   <br />
   <div id="owen-wilson-container">
@@ -25,13 +26,13 @@
   <div id="size-button-container" [style.height]="size + 'px'">
     <p>Size Button</p>
     <mat-divider></mat-divider>
-    <button mat-raised-button (click)="enlarge()">
+    <button class="enlarge-button" mat-raised-button (click)="enlarge()">
       Make Me Grow
     </button>
   </div>
   <br />
-  <div id="audio-container">
-    <p>Audio Button</p>
+  <div id="video-container">
+    <p>Play A Video</p>
     <mat-divider></mat-divider>
     <button mat-raised-button (click)="audioPlay()">
       LISTEN UP
@@ -47,12 +48,13 @@
       </button>
     <!-- </div> -->
   </div>
-  <div id="random-container">
+  <div id="flood-container" >
     <p>Fill BG with Water</p>
     <mat-divider></mat-divider>
-    <button mat-raised-button (click)="audioPlay()">
+    <button mat-raised-button (click)="fillWithWater()">
       Sink the TITANIC
     </button>
+    <!-- <img class="theFlood" src="./assets/images/randomPictures/oceanWater.jpg"> -->
   </div>
   <div id="random-container">
     <p>Joke Generator</p>

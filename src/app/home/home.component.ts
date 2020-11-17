@@ -11,11 +11,13 @@ export class HomeComponent implements OnInit {
   colorBoolean: boolean = false
   randomColor: string;
   textColor: string;
-  backgroundColor: string
-  randomPic: string
-  randomAudioClip: string
-  isVisible: boolean = true
-  size: number = 100
+  backgroundColor: string;
+  buttonBackgroundColor: string;
+  randomPic: string;
+  randomAudioClip: string;
+  isVisible: boolean = true;
+  size: number = 100;
+  sealevel: number = 0
 
   constructor() { }
 
@@ -24,7 +26,7 @@ export class HomeComponent implements OnInit {
 
 
   vanishButton() {
-    this.isVisible = !this.isVisible //Not sure if this is correct
+    this.isVisible = !this.isVisible
   }
 
   changePicture() {
@@ -34,7 +36,12 @@ export class HomeComponent implements OnInit {
       './assets/images/owen_wilson/wow_3.jpg',
       './assets/images/owen_wilson/wow_4.jpg',
       './assets/images/owen_wilson/wow_5.jpg',
-      './assets/images/owen_wilson/wow_6.jpg'
+      './assets/images/owen_wilson/wow_6.jpg',
+      './assets/images/owen_wilson/wow_7.jpg',
+      './assets/images/owen_wilson/wow_8.jpg',
+      './assets/images/owen_wilson/wow_9.jpg',
+      './assets/images/owen_wilson/wow_10.jpg',
+      './assets/images/owen_wilson/wow_11.jpg'
     ];
     this.randomPic = randomPicArray[Math.floor(Math.random() * randomPicArray.length)]
   }
@@ -66,6 +73,20 @@ export class HomeComponent implements OnInit {
     this.textColor = randomColorArray[Math.floor(Math.random() * randomColorArray.length)]
   }
 
+  switchButtonBackgroundColor() {
+    const randomButtonBackgroundColorArray = [
+      'green',
+      'yellow',
+      'blue',
+      'purple',
+      'orange',
+      'red',
+      'pink',
+      'lightgreen'
+    ];
+    this.buttonBackgroundColor = randomButtonBackgroundColorArray[Math.floor(Math.random() * randomButtonBackgroundColorArray.length)]
+  }
+
   audioPlay(){
 
   }
@@ -79,7 +100,13 @@ export class HomeComponent implements OnInit {
     './assets/audioClips/owen_wilson_audio/hadThisTheory.mp3',
     './assets/audioClips/owen_wilson_audio/iCareDesperately.mp3',
     './assets/audioClips/owen_wilson_audio/imInHillBillyHell.mp3',
-    './assets/audioClips/owen_wilson_audio/threePointFiveYears.mp3'
+    './assets/audioClips/owen_wilson_audio/threePointFiveYears.mp3',
+    './assets/audioClips/owen_wilson_audio/emotionalDupree.mp3',
+    './assets/audioClips/owen_wilson_audio/heartOfALion.mp3',
+    './assets/audioClips/owen_wilson_audio/iWasntLikeEveryOtherKid.mp3',
+    './assets/audioClips/owen_wilson_audio/sailingDownUnder.mp3',
+    './assets/audioClips/owen_wilson_audio/sandbaggin.mp3',
+    './assets/audioClips/owen_wilson_audio/whoYouTryingToGetLocoWith.mp3'
     ]
   this.randomAudioClip = randomOwenWilsonAudioArray[Math.floor(Math.random() * randomOwenWilsonAudioArray.length)]
   this.playAudio()
@@ -93,5 +120,8 @@ export class HomeComponent implements OnInit {
   }
 
 
+  fillWithWater() {
+    this.sealevel += 200
+  }
 
 }
