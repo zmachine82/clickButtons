@@ -8,7 +8,7 @@
   width: 55px;
   position: absolute;
   left: 210px;
-  top: 120px;
+  top: 105px;
   border-radius: 20px;
   border-width: 3px;
   border-style: solid;
@@ -81,7 +81,6 @@ button[data-toggle="collapse"] {
 #sidebar ul li button {
   padding: 10px;
   display: block;
-  width: auto;
   margin-left: -40px;
   font-family: PermanentMarker-Regular;
   background: linear-gradient(white,lightgray);
@@ -99,4 +98,11 @@ hr {
 margin: 0;
 }
 
+.nav-link {
+  width: 160px;
+  font-size: 17px;
+  // background: -webkit-linear-gradient(black,cyan);
+  // -webkit-background-clip: text;
+  // -webkit-text-fill-color: transparent;
 
+}
