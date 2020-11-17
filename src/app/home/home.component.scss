@@ -42,13 +42,25 @@ button:hover {
   margin-right: 10px;
 }
 
-// .color-title {
-//   margin-left: 20px;
-// }
+#vanishing-container {
+  background: rgb(135, 115, 250);
+  height: 150px;
+  width: 200px;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.magicTrick {
+  opacity: 0%;
+  transition: ease-in 2s;
+  transition: ease-out 2s;
+}
 
 #owen-wilson-container {
   background: rgb(236, 157, 157);
-  height: 100px;
+  height: 200px;
   width: 200px;
   border-width: 3px;
   border-style: solid;
@@ -91,3 +103,17 @@ button:hover {
   color: red;
 }
 
+.owen-wilson {
+  max-width: 100px;
+  max-height: 100px;
+  min-width: 100px;
+  min-height: 100px;
+}
+
+.easeIn {
+  transition: ease-in 2s;
+}
+
+.vanish-button {
+  opacity: 100%;
+}

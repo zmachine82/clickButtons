@@ -15,9 +15,10 @@
   <div id="owen-wilson-container">
     <p>Owen Wilson Button</p>
     <mat-divider></mat-divider>
-    <button mat-raised-button (click)="changePicture()">
+    <button class="wow" mat-raised-button (click)="changePicture();owenWilsonAudio()">
       Wow!
     </button>
+    <img class="owen-wilson" src="{{randomPic}}"/>
     <!-- <img style="display:none;" id="defaultPic" src="./assets/images/wow.jpg";/> -->
   </div>
   <br />
@@ -37,18 +38,18 @@
     </button>
   </div>
   <br/>
-  <div id="random-container">
+    <div id="vanishing-container" [ngClass]= "{ 'magicTrick' : !isVisible, 'easeIn': isVisible }">
     <p>Disappear</p>
     <mat-divider></mat-divider>
-    <button mat-raised-button (click)="audioPlay()">
-      Randomize
+    <button mat-raised-button (click)="vanishButton()">
+      Magic Button
     </button>
   </div>
   <div id="random-container">
     <p>Fill BG with Water</p>
     <mat-divider></mat-divider>
     <button mat-raised-button (click)="audioPlay()">
-      Randomize
+      Sink the TITANIC
     </button>
   </div>
   <div id="random-container">
@@ -69,7 +70,7 @@
     <p>GIF me a Break</p>
     <mat-divider></mat-divider>
     <button mat-raised-button (click)="audioPlay()">
-      Randomize
+      Break me off a GIF
     </button>
   </div>
   <div id="random-container">
@@ -83,7 +84,7 @@
     <p>Set Buttons On Fire</p>
     <mat-divider></mat-divider>
     <button mat-raised-button (click)="audioPlay()">
-      Randomize
+      Set Fire
     </button>
   </div>
   <div id="random-container">
