@@ -15,6 +15,7 @@ export class HomeComponent implements OnInit {
   randomPic: string
   randomAudioClip: string
   isVisible: boolean = true
+  size: number = 100
   constructor() { }
 
   ngOnInit(): void {
@@ -62,14 +63,16 @@ export class HomeComponent implements OnInit {
       'lightgreen'
     ];
     this.textColor = randomColorArray[Math.floor(Math.random() * randomColorArray.length)]
-}
+  }
 
   audioPlay(){
 
-}
+  }
 
   enlarge() {
-    //size-button-container ++ height and width &&move position right
+    this.size + 10
+    //number=0 this.size +=1;
+
   }
 
   owenWilsonAudio() {
