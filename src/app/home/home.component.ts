@@ -55,7 +55,12 @@ export class HomeComponent implements OnInit {
       'orange',
       'red',
       'pink',
-      'lightgreen'
+      'lightgreen',
+      'lightblue',
+      'lightpurple',
+      'cyan',
+      'magenta',
+      'lightorange'
     ];
     this.randomColor = randomColorArray[Math.floor(Math.random() * randomColorArray.length)]
 }
@@ -68,7 +73,12 @@ export class HomeComponent implements OnInit {
       'orange',
       'red',
       'pink',
-      'lightgreen'
+      'lightgreen',
+      'lightblue',
+      'lightpurple',
+      'cyan',
+      'magenta',
+      'lightorange'
     ];
     this.textColor = randomColorArray[Math.floor(Math.random() * randomColorArray.length)]
   }
@@ -82,7 +92,12 @@ export class HomeComponent implements OnInit {
       'orange',
       'red',
       'pink',
-      'lightgreen'
+      'lightgreen',
+      'lightblue',
+      'lightpurple',
+      'cyan',
+      'magenta',
+      'lightorange'
     ];
     this.buttonBackgroundColor = randomButtonBackgroundColorArray[Math.floor(Math.random() * randomButtonBackgroundColorArray.length)]
   }
