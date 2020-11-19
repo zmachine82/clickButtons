@@ -1,12 +1,12 @@
-.footer-container {
+.movie-footer-container {
   display: flex;
-  background: radial-gradient(white,white, purple);  // height: 80px;
+  background: radial-gradient(white, rgb(22, 22, 22));  // height: 80px;
   border: black;
   border-width: 1px;
   border-style: solid;
-  border-radius: 5px;
+  // border-radius: 5px;
   justify-content: center;
-  // margin-top: -10px;
+  height: 250px;
 }
 
 h3 {

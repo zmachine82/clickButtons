@@ -17,6 +17,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { GridTestComponent } from './grid-test/grid-test.component';
 import { AuthorisedTopNavComponent } from './layout/authorised/authorised-top-nav/authorised-top-nav.component';
 import { AuthorisedSideNavComponent } from './layout/authorised/authorised-side-nav/authorised-side-nav.component';
+import { MovieTheaterComponent } from './movie-theater/movie-theater.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { AuthorisedSideNavComponent } from './layout/authorised/authorised-side-
     GridTestComponent,
     AuthorisedTopNavComponent,
     AuthorisedSideNavComponent,
+    MovieTheaterComponent,
   ],
   imports: [
     BrowserModule,
