@@ -1,10 +1,10 @@
 .movie-footer-container {
-  // align-items: center;
+  display: flex;
+  flex-direction: column;
   background: radial-gradient(white, rgb(22, 22, 22));  // height: 80px;
   border: black;
   border-width: 1px;
   border-style: solid;
-  // border-radius: 5px;
   justify-content: center;
   height: 250px;
   padding-top: 25px;
@@ -21,17 +21,24 @@
 .movieListings {
   display: flex;
   flex-wrap: wrap;
-  // flex-direction: column;
   height: 180px;
   padding: 10px;
-  p {
+  button {
     border-style: solid;
     border-width: 2px;
-    height: 30px;
+    border-radius: 10px;
+    height: 50px;
     width: 160px;
     background: lightyellow;
     text-align: center;
-    padding-top: 10px;
+    font-family: PermanentMarker-Regular;
+    font-size: 16px;
   }
 }
 
+.movieToggler {
+  position: absolute;
+  height: 40px;
+  width: 80px;
+  right: 20px;
+}
