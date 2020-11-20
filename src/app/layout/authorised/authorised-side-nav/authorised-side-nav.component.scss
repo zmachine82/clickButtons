@@ -1,5 +1,6 @@
 :host {
   background: rgb(56, 199, 120);
+  height: 100vh;
 }
 
 #toggle-button {
@@ -7,7 +8,7 @@
   height: 35px;
   width: 55px;
   position: absolute;
-  left: 210px;
+  left: 260px;
   top: 105px;
   border-radius: 20px;
   border-width: 3px;
@@ -26,16 +27,16 @@
 }
 
 .material-icons.hidden {
-  margin-left: -200px;
+  margin-left: -250px;
 }
 
 #toggle-button.hidden {
-  margin-left: -200px;
+  margin-left: -250px;
 }
 
 #sidebar {
-  min-width: 200px;
-  max-width: 200px;
+  min-width: 250px;
+  max-width: 250px;
   min-height: 100vh;
   color: pink;
   transition: all 0.3s;
@@ -47,7 +48,7 @@
 }
 
 #sidebar.hidden {
-  margin-left: -200px;
+  margin-left: -250px;
 }
 
 ul {
@@ -89,6 +90,10 @@ button[data-toggle="collapse"] {
   }
 }
 
+button {
+  border-radius: 5px;
+}
+
 hr {
   border-top: 1px solid #fff;
   margin-top: 0;
@@ -96,13 +101,11 @@ hr {
 
 .navbar-nav {
 margin: 0;
+// display: flex;
+// flex-wrap: wrap;
 }
 
 .nav-link {
-  width: 160px;
-  font-size: 17px;
-  // background: -webkit-linear-gradient(black,cyan);
-  // -webkit-background-clip: text;
-  // -webkit-text-fill-color: transparent;
-
+  width: 210px;
+  font-size: 22px;
 }
