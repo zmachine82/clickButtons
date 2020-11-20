@@ -1,17 +1,17 @@
 .navbar {
   // background: linear-gradient(white, cyan);
   background: linear-gradient(white,black);
-  height: 80px;
+  height: 100px;
   padding: 0%;
 }
 
 h3 {
   font-family: Lobster-Regular;
-  font-size: 60px;
+  font-size: 70px;
   text-shadow: rgb(0, 255, 21) 2px 0 10px;
   margin: 0;
   position: absolute;
-  top: 30px;
+  top: 40px;
   left: 30px;
   // padding-top: 30px;
   // padding-left: 20px;
@@ -21,7 +21,7 @@ button {
   width: auto;
   background: linear-gradient(white, lightpink);
   font-family: PermanentMarker-Regular;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 button:hover {
@@ -33,7 +33,7 @@ ul {
   flex-direction: row;
   list-style-type: none;
   direction: rtl;
-  padding: 10px;
+  padding-top: 20px;
 }
 
 li {

@@ -5,7 +5,6 @@
   border: black;
   border-width: 1px;
   border-style: solid;
-  justify-content: center;
   height: 250px;
   padding-top: 25px;
 }
@@ -13,10 +12,11 @@
 .movieListingsHeader {
   margin: 0%;
   // padding-bottom: 20px;
-  padding-left: 100px;
+  padding-left: 80px;
   padding-bottom: 20px ;
   font-family: Lobster-Regular;
-  font-size: 40px;
+  font-size: 45px;
+  color: white;
 }
 
 .movieListings {

@@ -18,6 +18,7 @@ import { GridTestComponent } from './grid-test/grid-test.component';
 import { AuthorisedTopNavComponent } from './layout/authorised/authorised-top-nav/authorised-top-nav.component';
 import { AuthorisedSideNavComponent } from './layout/authorised/authorised-side-nav/authorised-side-nav.component';
 import { MovieTheaterComponent } from './movie-theater/movie-theater.component';
+import { YouTubePlayerModule } from '@angular/youtube-player';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { MovieTheaterComponent } from './movie-theater/movie-theater.component';
     MatDividerModule,
     FlexLayoutModule,
     MatGridListModule,
-    MatIconModule
+    MatIconModule,
+    YouTubePlayerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
