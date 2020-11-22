@@ -18,7 +18,9 @@ import { GridTestComponent } from './grid-test/grid-test.component';
 import { AuthorisedTopNavComponent } from './layout/authorised/authorised-top-nav/authorised-top-nav.component';
 import { AuthorisedSideNavComponent } from './layout/authorised/authorised-side-nav/authorised-side-nav.component';
 import { MovieTheaterComponent } from './movie-theater/movie-theater.component';
-import { YouTubePlayerModule } from '@angular/youtube-player';
+import { StickFightVideoComponent } from './stick-fight-video/stick-fight-video.component';
+import { PolyphiaVideoComponent } from './polyphia-video/polyphia-video.component';
+// import { YouTubePlayer, YouTubePlayerModule } from '@angular/youtube-player';
 
 @NgModule({
   declarations: [
@@ -30,6 +32,8 @@ import { YouTubePlayerModule } from '@angular/youtube-player';
     AuthorisedTopNavComponent,
     AuthorisedSideNavComponent,
     MovieTheaterComponent,
+    StickFightVideoComponent,
+    PolyphiaVideoComponent,
   ],
   imports: [
     BrowserModule,
@@ -41,7 +45,8 @@ import { YouTubePlayerModule } from '@angular/youtube-player';
     FlexLayoutModule,
     MatGridListModule,
     MatIconModule,
-    YouTubePlayerModule
+    // YouTubePlayerModule,
+    // YouTubePlayer
   ],
   providers: [],
   bootstrap: [AppComponent]
