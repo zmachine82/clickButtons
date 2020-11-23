@@ -1,8 +1,13 @@
-import { PolyphiaVideoComponent } from './polyphia-video/polyphia-video.component';
-import { StickFightVideoComponent } from './stick-fight-video/stick-fight-video.component';
+import { BetterStickFightVideoComponent } from './movie-theater-videos/better-stick-fight-video/better-stick-fight-video.component';
+import { MythbustersVideoComponent } from './movie-theater-videos/mythbusters-video/mythbusters-video.component';
+import { YouCanDoAnythingVideoComponent } from './movie-theater-videos/you-can-do-anything-video/you-can-do-anything-video.component';
+import { FullHouseVideoComponent } from './movie-theater-videos/full-house-video/full-house-video.component';
+import { DeadpoolBobRossVideoComponent } from './movie-theater-videos/deadpool-bob-ross-video/deadpool-bob-ross-video.component';
+import { PolyphiaVideoComponent } from './movie-theater-videos/polyphia-video/polyphia-video.component';
+import { StickFightVideoComponent } from './movie-theater-videos/stick-fight-video/stick-fight-video.component';
 import { MovieTheaterComponent } from './movie-theater/movie-theater.component';
 import { HomeComponent } from './home/home.component';
-import { NgModule } from '@angular/core';
+import { NgModule, Component } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { GridTestComponent } from './grid-test/grid-test.component';
 
@@ -11,6 +16,11 @@ const routes: Routes = [
   {path: 'home', component: HomeComponent },
   {path: 'stickFightingVideo', component: StickFightVideoComponent},
   {path: 'polyphiaVideo', component: PolyphiaVideoComponent},
+  {path: 'deadpoolBobRoss', component: DeadpoolBobRossVideoComponent},
+  {path: 'fullHouseOfMustaches', component: FullHouseVideoComponent},
+  {path: 'youCanDoAnything', component: YouCanDoAnythingVideoComponent},
+  {path: 'mythbusters', component: MythbustersVideoComponent},
+  {path: 'betterStickFight', component: BetterStickFightVideoComponent}
 ];
 
 @NgModule({
