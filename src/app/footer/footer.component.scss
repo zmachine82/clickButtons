@@ -22,6 +22,7 @@
 .movieListings {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   height: 180px;
   padding: 10px;
   button {
@@ -35,4 +36,9 @@
     font-family: PermanentMarker-Regular;
     font-size: 22px;
   }
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 80%;
 }
