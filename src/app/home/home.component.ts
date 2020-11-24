@@ -134,4 +134,8 @@ export class HomeComponent implements OnInit {
     this.sealevel += 200
   }
 
+  playBackgroundVideo() { //play virus video on background page
+
+  }
+
 }

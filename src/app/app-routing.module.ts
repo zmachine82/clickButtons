@@ -1,3 +1,6 @@
+import { BackgroundVideoButtonComponent } from './background-video-button/background-video-button.component';
+import { LofiMusicVideoComponent } from './lofi-music-video/lofi-music-video.component';
+import { RedPandasVideoComponent } from './movie-theater-videos/red-pandas-video/red-pandas-video.component';
 import { BetterStickFightVideoComponent } from './movie-theater-videos/better-stick-fight-video/better-stick-fight-video.component';
 import { MythbustersVideoComponent } from './movie-theater-videos/mythbusters-video/mythbusters-video.component';
 import { YouCanDoAnythingVideoComponent } from './movie-theater-videos/you-can-do-anything-video/you-can-do-anything-video.component';
@@ -20,7 +23,10 @@ const routes: Routes = [
   {path: 'fullHouseOfMustaches', component: FullHouseVideoComponent},
   {path: 'youCanDoAnything', component: YouCanDoAnythingVideoComponent},
   {path: 'mythbusters', component: MythbustersVideoComponent},
-  {path: 'betterStickFight', component: BetterStickFightVideoComponent}
+  {path: 'betterStickFight', component: BetterStickFightVideoComponent},
+  {path: 'redPandas', component: RedPandasVideoComponent},
+  {path: 'lofiMusic', component: LofiMusicVideoComponent},
+  {path: 'backgroundVideo', component: BackgroundVideoButtonComponent}
 ];
 
 @NgModule({

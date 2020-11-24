@@ -24,6 +24,9 @@ import { FullHouseVideoComponent } from './movie-theater-videos/full-house-video
 import { YouCanDoAnythingVideoComponent } from './movie-theater-videos/you-can-do-anything-video/you-can-do-anything-video.component';
 import { MythbustersVideoComponent } from './movie-theater-videos/mythbusters-video/mythbusters-video.component';
 import { BetterStickFightVideoComponent } from './movie-theater-videos/better-stick-fight-video/better-stick-fight-video.component';
+import { RedPandasVideoComponent } from './movie-theater-videos/red-pandas-video/red-pandas-video.component';
+import { LofiMusicVideoComponent } from './lofi-music-video/lofi-music-video.component';
+import { BackgroundVideoButtonComponent } from './background-video-button/background-video-button.component';
 // import { YouTubePlayer, YouTubePlayerModule } from '@angular/youtube-player';
 
 @NgModule({
@@ -42,6 +45,9 @@ import { BetterStickFightVideoComponent } from './movie-theater-videos/better-st
     YouCanDoAnythingVideoComponent,
     MythbustersVideoComponent,
     BetterStickFightVideoComponent,
+    RedPandasVideoComponent,
+    LofiMusicVideoComponent,
+    BackgroundVideoButtonComponent,
   ],
   imports: [
     BrowserModule,

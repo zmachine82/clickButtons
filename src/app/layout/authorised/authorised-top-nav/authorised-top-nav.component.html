@@ -1,14 +1,18 @@
 <nav class="navbar">
   <h3>Application Playground</h3>
+  <div>
+    <p *ngIf="buttonNavColors">Cyan Color Scheme</p>
+  </div>
   <!-- <app-authorised-side-nav-toggler></app-authorised-side-nav-toggler> -->
   <div class="nav-buttons">
     <ul>
       <li>
-        <button mat-raised-button class="nav-button">Random Animation</button>
+        <button mat-raised-button class="nav-button" (click)="lofiMusic()">Play Some Music</button>
       </li>
       <li>
         <button mat-raised-button class="nav-button">Animation Trigger</button>
       </li>
     </ul>
+    <button class="material-icons" id="topNavToggler">menu</button>
   </div>
 </nav>

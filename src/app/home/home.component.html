@@ -1,4 +1,5 @@
 <div class="button-page-container">
+  <ng-content select="[button-container-background]"></ng-content>
   <!-- <app-authorised-side-nav></app-authorised-side-nav> -->
 <div class="button-container">
   <div id="color-container" [ngStyle]="{ 'background-color': randomColor }">
@@ -32,10 +33,10 @@
   </div>
   <br />
   <div id="video-container">
-    <p>Play A Video</p>
+    <p>Video Background</p>
     <mat-divider></mat-divider>
-    <button mat-raised-button>
-      YouTube Video
+    <button class="background-video-button" routerLink="/backgroundVideo" mat-raised-button>
+      Release the Virus
     </button>
   </div>
   <br/>
