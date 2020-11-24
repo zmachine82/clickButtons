@@ -1,8 +1,10 @@
 .navbar {
-  background: linear-gradient(white,black);
-  // background: linear-gradient(white, cyan); Only Display on Click Buttons Component
+  // background: linear-gradient(white,black);
+  background: linear-gradient(white, cyan); // Only Display on Click Buttons Component
   height: 130px;
   padding: 0%;
+  // border-bottom: 2px;
+  // border-style: solid;
 }
 
 #topNavToggler {
@@ -17,8 +19,8 @@
 }
 
 h3 {
-  font-family: Lobster-Regular;
-  font-size: 70px;
+  font-family: PermanentMarker-Regular;
+  font-size: 100px;
   text-shadow: rgb(0, 255, 21) 2px 0 10px;
   margin: 0;
   position: absolute;

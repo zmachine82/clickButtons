@@ -28,6 +28,7 @@ import { RedPandasVideoComponent } from './movie-theater-videos/red-pandas-video
 import { LofiMusicVideoComponent } from './lofi-music-video/lofi-music-video.component';
 import { BackgroundVideoButtonComponent } from './background-video-button/background-video-button.component';
 import { AnotherStickFightVideoComponent } from './movie-theater-videos/another-stick-fight-video/another-stick-fight-video.component';
+import { LandingPageComponent } from './landing-page/landing-page.component';
 // import { YouTubePlayer, YouTubePlayerModule } from '@angular/youtube-player';
 
 @NgModule({
@@ -50,6 +51,7 @@ import { AnotherStickFightVideoComponent } from './movie-theater-videos/another-
     LofiMusicVideoComponent,
     BackgroundVideoButtonComponent,
     AnotherStickFightVideoComponent,
+    LandingPageComponent,
   ],
   imports: [
     BrowserModule,

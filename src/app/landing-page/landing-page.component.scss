@@ -1,0 +1,15 @@
+.landingPageContainer {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url("/assets/images/randomPictures/welcomePinkAndBlue.jpg");
+  background-size: 92%;
+  height: 100vh;
+  width: 86vw;
+}
+
+h1 {
+  font-family: Lobster-Regular;
+  font-size: 40px;
+  color: white;
+  padding: 4%;
+}

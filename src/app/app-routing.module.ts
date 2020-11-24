@@ -1,3 +1,4 @@
+import { LandingPageComponent } from './landing-page/landing-page.component';
 import { AnotherStickFightVideoComponent } from './movie-theater-videos/another-stick-fight-video/another-stick-fight-video.component';
 import { BackgroundVideoButtonComponent } from './background-video-button/background-video-button.component';
 import { LofiMusicVideoComponent } from './lofi-music-video/lofi-music-video.component';
@@ -16,7 +17,8 @@ import { Routes, RouterModule } from '@angular/router';
 import { GridTestComponent } from './grid-test/grid-test.component';
 
 const routes: Routes = [
-  {path: '', component: MovieTheaterComponent},
+  {path: '', component: LandingPageComponent},
+  {path: 'movieTheater', component: MovieTheaterComponent},
   {path: 'home', component: HomeComponent },
   {path: 'stickFightingVideo', component: StickFightVideoComponent},
   {path: 'polyphiaVideo', component: PolyphiaVideoComponent},
@@ -29,6 +31,7 @@ const routes: Routes = [
   {path: 'lofiMusic', component: LofiMusicVideoComponent},
   {path: 'backgroundVideo', component: BackgroundVideoButtonComponent},
   {path: 'anotherStickFight', component: AnotherStickFightVideoComponent},
+  {path: 'landingPage', component: LandingPageComponent}
 ];
 
 @NgModule({
