@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AuthorisedTopNavComponent implements OnInit {
   musicOn: boolean = false
-  buttonNavColors = false    //possibly change the top nav background depending on component displaying
+  buttonNavColors: boolean = false    //possibly change the top nav background depending on component displaying
 
   constructor(public sideNavService: AuthorisedSideNavService) { }
 

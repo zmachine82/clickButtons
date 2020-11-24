@@ -1,3 +1,4 @@
+import { AnotherStickFightVideoComponent } from './movie-theater-videos/another-stick-fight-video/another-stick-fight-video.component';
 import { BackgroundVideoButtonComponent } from './background-video-button/background-video-button.component';
 import { LofiMusicVideoComponent } from './lofi-music-video/lofi-music-video.component';
 import { RedPandasVideoComponent } from './movie-theater-videos/red-pandas-video/red-pandas-video.component';
@@ -26,7 +27,8 @@ const routes: Routes = [
   {path: 'betterStickFight', component: BetterStickFightVideoComponent},
   {path: 'redPandas', component: RedPandasVideoComponent},
   {path: 'lofiMusic', component: LofiMusicVideoComponent},
-  {path: 'backgroundVideo', component: BackgroundVideoButtonComponent}
+  {path: 'backgroundVideo', component: BackgroundVideoButtonComponent},
+  {path: 'anotherStickFight', component: AnotherStickFightVideoComponent},
 ];
 
 @NgModule({
