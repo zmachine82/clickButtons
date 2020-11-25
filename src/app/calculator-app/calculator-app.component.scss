@@ -1,0 +1,45 @@
+.calculator-page-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 100px;
+  height: 90vh;
+  width: 86vw;
+  background: purple;
+}
+
+.calculator {
+  height: 650px;
+  width: 700px;
+  background: lightgray;
+}
+
+.calculator-display {
+  height: 80px;
+  background: chartreuse;
+}
+
+.calculator-sub-display {
+  height: 60px;
+  background: coral;
+}
+
+.keypad {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+}
+
+.keys {
+  margin: 0;
+  width: 15%;
+  height: 12%;
+  background: whitesmoke;
+  color: black;
+  border-style: solid;
+  border-width: 1px;
+  padding: 4%;
+  font-size: 2rem;
+  text-align: center;
+  cursor: pointer;
+}
