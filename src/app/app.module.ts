@@ -29,6 +29,7 @@ import { LofiMusicVideoComponent } from './lofi-music-video/lofi-music-video.com
 import { BackgroundVideoButtonComponent } from './background-video-button/background-video-button.component';
 import { AnotherStickFightVideoComponent } from './movie-theater-videos/another-stick-fight-video/another-stick-fight-video.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
+import { CalculatorAppComponent } from './calculator-app/calculator-app.component';
 // import { YouTubePlayer, YouTubePlayerModule } from '@angular/youtube-player';
 
 @NgModule({
@@ -52,6 +53,7 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
     BackgroundVideoButtonComponent,
     AnotherStickFightVideoComponent,
     LandingPageComponent,
+    CalculatorAppComponent,
   ],
   imports: [
     BrowserModule,

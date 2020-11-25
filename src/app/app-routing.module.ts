@@ -1,3 +1,4 @@
+import { CalculatorAppComponent } from './calculator-app/calculator-app.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { AnotherStickFightVideoComponent } from './movie-theater-videos/another-stick-fight-video/another-stick-fight-video.component';
 import { BackgroundVideoButtonComponent } from './background-video-button/background-video-button.component';
@@ -31,7 +32,8 @@ const routes: Routes = [
   {path: 'lofiMusic', component: LofiMusicVideoComponent},
   {path: 'backgroundVideo', component: BackgroundVideoButtonComponent},
   {path: 'anotherStickFight', component: AnotherStickFightVideoComponent},
-  {path: 'landingPage', component: LandingPageComponent}
+  {path: 'landingPage', component: LandingPageComponent},
+  {path: 'calculator', component: CalculatorAppComponent}
 ];
 
 @NgModule({

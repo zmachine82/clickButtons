@@ -88,6 +88,7 @@ button[data-toggle="collapse"] {
   background: linear-gradient(white,rgb(175, 175, 175));
   &:hover {
     background: linear-gradient(to right,pink,white,white,pink);
+    cursor: pointer;
   }
 }
 
