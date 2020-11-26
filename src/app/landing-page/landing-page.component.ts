@@ -1,3 +1,4 @@
+import { setScreenDimensions } from '../../setScreenParams';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./landing-page.component.scss']
 })
 export class LandingPageComponent implements OnInit {
+  setScreenDimensions //Welcome Page should extend/adjust when toggling sidenav
 
   constructor() { }
 

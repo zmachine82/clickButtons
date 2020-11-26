@@ -20,6 +20,7 @@ export class AuthorisedSideNavComponent implements OnInit {
   toggleSideNav(): void {
     this.hideSideNav = !this.hideSideNav;
     this.hideToggleButton = !this.hideToggleButton;
+    //change router container size on click, this might be easier and should work across all components
 
     setScreenDimensions(this.hideSideNav);
   }
