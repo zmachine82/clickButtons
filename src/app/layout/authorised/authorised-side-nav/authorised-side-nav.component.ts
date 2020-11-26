@@ -1,6 +1,7 @@
 import { AuthorisedSideNavService } from './../services/authorised-side-nav.service';
 import { Component, OnInit } from '@angular/core';
 import { Output, EventEmitter } from '@angular/core';
+import { setScreenDimensions } from '../../../../setScreenParams';
 
 @Component({
   selector: 'app-authorised-side-nav',
@@ -19,6 +20,8 @@ export class AuthorisedSideNavComponent implements OnInit {
   toggleSideNav(): void {
     this.hideSideNav = !this.hideSideNav;
     this.hideToggleButton = !this.hideToggleButton;
-  }
 
+    setScreenDimensions(this.hideSideNav);
+  }
 }
+

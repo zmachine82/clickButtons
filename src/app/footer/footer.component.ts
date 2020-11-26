@@ -1,3 +1,4 @@
+import { setScreenDimensions } from '../../setScreenParams';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -11,5 +12,6 @@ export class FooterComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
 
 }

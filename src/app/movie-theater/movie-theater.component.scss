@@ -27,11 +27,10 @@
   font-size: 20px;
 }
 
-.movie-screen-container {    //still needs to adjust screen size when toggling sidenav
+#movie-screen-container {    //still needs to adjust screen size when toggling sidenav
   position: relative;
   top: -11%;
-  min-height: 42%;
-  max-height: 60%;
+  height: 42%;
   min-width: 68%;
   max-width: 68%;
   border-style: solid;
