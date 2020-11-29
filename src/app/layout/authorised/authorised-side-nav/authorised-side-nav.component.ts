@@ -2,6 +2,7 @@ import { AuthorisedSideNavService } from './../services/authorised-side-nav.serv
 import { Component, OnInit } from '@angular/core';
 import { Output, EventEmitter } from '@angular/core';
 import { setScreenDimensions } from '../../../../setScreenParams';
+import { setLandingPageDimensions } from 'src/setLandingPageParams';
 
 @Component({
   selector: 'app-authorised-side-nav',
@@ -23,6 +24,7 @@ export class AuthorisedSideNavComponent implements OnInit {
     //change router container size on click, this might be easier and should work across all components
 
     setScreenDimensions(this.hideSideNav);
+    setLandingPageDimensions(this.hideSideNav);
   }
 }
 

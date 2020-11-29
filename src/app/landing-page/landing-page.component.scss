@@ -1,11 +1,11 @@
-.landingPageContainer {
+#landingPageContainer {
   display: flex;
   flex-wrap: wrap;
   background-image: url("/assets/images/randomPictures/welcomePinkAndBlue.jpg");
   background-size: 92%;
   height: 100vh;
-  min-width: 86vw;
-  max-width: 100vw;
+  width: 86vw;
+  // max-width: 100vw;
 }
 
 h1 {
@@ -13,4 +13,13 @@ h1 {
   font-size: 40px;
   color: white;
   padding: 4%;
+}
+
+
+#clickHereText {
+  color: rgb(250, 7, 141);
+  font-family: PermanentMarker-Regular;
+  font-size: 60px;
+  padding-left: 4.5%;
+  padding-top: 0.8%;
 }

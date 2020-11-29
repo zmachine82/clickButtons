@@ -1,45 +1,73 @@
 .calculator-page-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  padding-top: 100px;
-  height: 90vh;
+  justify-content: flex-start;
+  padding-top: 7%;
+  // padding-left: 1%;
+  height: 88vh;
   width: 86vw;
-  background: purple;
+  // background: rgb(134, 121, 121);
+  background-image: url("/assets/images/randomPictures/mathematicsBackground.jpg");
+  background-size: 100%;
 }
 
 .calculator {
-  height: 650px;
-  width: 700px;
-  background: lightgray;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 71%;
+  width: 42%;
+  background: rgb(245, 185, 250);
+  border-style: solid;
+  border-width: 12px;
+  border-color: rgb(255, 153, 0);
+  border-radius: 8px;
 }
 
-.calculator-display {
-  height: 80px;
-  background: chartreuse;
+.maindisplay {
+  display: flex;
+  justify-content: flex-end;
+  height: 10%;
+  // width: 100%;
+  background: rgb(185, 250, 120);
+  font-size: 40px;
+  padding: 10px;
+  color: grey;
 }
 
-.calculator-sub-display {
+.subdisplay {
+  display: flex;
+  justify-content: flex-end;
   height: 60px;
-  background: coral;
+  // width: 100%;
+  background: #f1fc62;
+  font-size: 30px;
+  padding: 10px;
+  border-style: solid;
+  border-width: 2px;
+  color: grey;
 }
 
 .keypad {
   display: flex;
   flex-wrap: wrap;
-  width: 600px;
 }
 
 .keys {
   margin: 0;
-  width: 15%;
-  height: 12%;
-  background: whitesmoke;
+  width: 16.6%;
+  height: 8%;
+  background: rgb(235, 234, 234);
   color: black;
   border-style: solid;
   border-width: 1px;
   padding: 4%;
   font-size: 2rem;
   text-align: center;
+  font-weight: bold;
   cursor: pointer;
+}
+
+.numkey {
+  background: rgb(189, 188, 188);
 }
