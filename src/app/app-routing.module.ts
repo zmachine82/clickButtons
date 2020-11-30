@@ -1,3 +1,4 @@
+import { GameroomAppComponent } from './gameroom-app/gameroom-app.component';
 import { CalculatorAppComponent } from './calculator-app/calculator-app.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { AnotherStickFightVideoComponent } from './movie-theater-videos/another-stick-fight-video/another-stick-fight-video.component';
@@ -33,7 +34,8 @@ const routes: Routes = [
   {path: 'backgroundVideo', component: BackgroundVideoButtonComponent},
   {path: 'anotherStickFight', component: AnotherStickFightVideoComponent},
   {path: 'landingPage', component: LandingPageComponent},
-  {path: 'calculator', component: CalculatorAppComponent}
+  {path: 'calculator', component: CalculatorAppComponent},
+  {path: 'gameroom', component: GameroomAppComponent}
 ];
 
 @NgModule({

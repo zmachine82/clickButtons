@@ -30,6 +30,7 @@ import { BackgroundVideoButtonComponent } from './background-video-button/backgr
 import { AnotherStickFightVideoComponent } from './movie-theater-videos/another-stick-fight-video/another-stick-fight-video.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { CalculatorAppComponent } from './calculator-app/calculator-app.component';
+import { GameroomAppComponent } from './gameroom-app/gameroom-app.component';
 // import { YouTubePlayer, YouTubePlayerModule } from '@angular/youtube-player';
 
 @NgModule({
@@ -54,6 +55,7 @@ import { CalculatorAppComponent } from './calculator-app/calculator-app.componen
     AnotherStickFightVideoComponent,
     LandingPageComponent,
     CalculatorAppComponent,
+    GameroomAppComponent,
   ],
   imports: [
     BrowserModule,

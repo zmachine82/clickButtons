@@ -1,4 +1,3 @@
-
 export function setScreenDimensions(hideSideNav) {
 
     //Adjust movie screen dimensions when toggling sidebar

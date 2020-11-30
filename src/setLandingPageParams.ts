@@ -5,7 +5,7 @@ export function setLandingPageDimensions(hideSideNav) {
   if (hideSideNav) {
   //sidenav is being hidden
     welcomeBackgroundImage.setAttribute("style", "width: 90vw; top:-7%");
-  }else {
+  } else {
   //sidenav is being shown
     welcomeBackgroundImage.setAttribute("style", "width: 86vw");
   }
