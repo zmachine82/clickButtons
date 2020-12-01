@@ -1,3 +1,4 @@
+import { SnowboardingVideoComponent } from './movie-theater-videos/snowboarding-video/snowboarding-video.component';
 import { TicTacToeGameComponent } from './tic-tac-toe-game/tic-tac-toe-game.component';
 import { GameroomAppComponent } from './gameroom-app/gameroom-app.component';
 import { CalculatorAppComponent } from './calculator-app/calculator-app.component';
@@ -38,6 +39,7 @@ const routes: Routes = [
   {path: 'calculator', component: CalculatorAppComponent},
   {path: 'gameroom', component: GameroomAppComponent},
   {path: 'ticTacToe', component: TicTacToeGameComponent},
+  {path: 'snowboarding', component: SnowboardingVideoComponent}
 ];
 
 @NgModule({

@@ -11,11 +11,22 @@
   background-size: 100%;
 }
 
+.calculator5000 {
+  font-family: Dark_Future_Italic;
+  position: absolute;
+  left: 20%;
+  color: red;
+  font-size: 160px;
+  text-shadow: 16px 6px 10px white;
+  background: fade-in($color: black, $amount: 0);
+}
+
 .calculator {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  height: 71%;
+  margin-top: 6%;
+  height: 70%;
   width: 42%;
   background: rgb(245, 185, 250);
   border-style: solid;

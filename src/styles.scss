@@ -19,6 +19,48 @@ body { margin: 0px; padding: 0px; font-family: Roboto, "Helvetica Neue", sans-se
     src: url(/assets/fonts/Lobster-Regular.ttf) format("opentype");
   }
 
+  @font-face {
+    font-family: Codystar-Regular;
+    src: url(/assets/fonts/Codystar-Regular.ttf) format("opentype");
+  }
+  @font-face {
+    font-family: Codystar-Light;
+    src: url(/assets/fonts/Codystar-Light.ttf) format("opentype");
+  }
+  @font-face {
+    font-family: Frijole-Regular;
+    src: url(/assets/fonts/Frijole-Regular.ttf) format("opentype");
+  }
+  @font-face {
+    font-family: game_over;
+    src: url(/assets/fonts/game_over.ttf) format("opentype");
+  }
+  @font-face {
+    font-family: ka1;
+    src: url(/assets/fonts/ka1.ttf) format("opentype");
+  }
+  @font-face {
+    font-family: Metamorphous-Regular;
+    src: url(/assets/fonts/Metamorphous-Regular.ttf) format("opentype");
+  }
+  @font-face {
+    font-family: Monofett-Regular;
+    src: url(/assets/fonts/Monofett-Regular.ttf) format("opentype");
+  }
+  @font-face {
+    font-family: Gameshow;
+    src: url(/assets/fonts/Gameshow.ttf) format("opentype");
+  }
+  @font-face {
+    font-family: VTKS_FUTURE;
+    src: url(/assets/fonts/VTKS_FUTURE.ttf) format("opentype");
+  }
+  @font-face {
+    font-family: Dark_Future_Italic;
+    src: url(/assets/fonts/Dark_Future_Italic.ttf) format("opentype");
+  }
+
+
   *:focus {
     outline: 0 !important;
 }

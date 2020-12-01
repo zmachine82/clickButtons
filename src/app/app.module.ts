@@ -32,6 +32,7 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
 import { CalculatorAppComponent } from './calculator-app/calculator-app.component';
 import { GameroomAppComponent } from './gameroom-app/gameroom-app.component';
 import { TicTacToeGameComponent } from './tic-tac-toe-game/tic-tac-toe-game.component';
+import { SnowboardingVideoComponent } from './movie-theater-videos/snowboarding-video/snowboarding-video.component';
 // import { YouTubePlayer, YouTubePlayerModule } from '@angular/youtube-player';
 
 @NgModule({
@@ -58,6 +59,7 @@ import { TicTacToeGameComponent } from './tic-tac-toe-game/tic-tac-toe-game.comp
     CalculatorAppComponent,
     GameroomAppComponent,
     TicTacToeGameComponent,
+    SnowboardingVideoComponent,
   ],
   imports: [
     BrowserModule,

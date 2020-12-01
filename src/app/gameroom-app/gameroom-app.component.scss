@@ -6,12 +6,14 @@
 }
 
 #choose-game-text {
-  font-family: PermanentMarker-Regular;
-  font-size: 100px;
+  height: 40%;
+  font-family: Gameshow;
+  font-size: 160px;
   color: white;
+  text-shadow: rgb(225, 0, 255) 5px 10px 10px;
   position: absolute;
-  top: 26%;
-  left: 28%;
+  top: 22%;
+  left: 21%;
 }
 
 .gameChoices {
@@ -19,7 +21,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 5%;
-  padding-top: 35%;
+  padding-top: 40%;
 }
 
 .gamePaths {

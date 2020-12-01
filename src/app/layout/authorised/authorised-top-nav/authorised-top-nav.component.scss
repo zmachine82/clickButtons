@@ -5,24 +5,24 @@
   padding: 0%;
 }
 
-#topNavToggler {
-  position: absolute;
-  right: 30px;
-  height: 30px;
-  width: 60px;
-}
+// #topNavToggler {
+//   position: absolute;
+//   right: 30px;
+//   height: 30px;
+//   width: 60px;
+// }
 
 .navbar.onButtonsPage {
   background: linear-gradient(white, cyan);
 }
 
 h3 {
-  font-family: PermanentMarker-Regular;
+  font-family: Monofett-Regular;
   font-size: 100px;
   text-shadow: rgb(0, 255, 21) 2px 0 10px;
   margin: 0;
   position: absolute;
-  top: 40px;
+  top: 50px;
   left: 30px;
 }
 
@@ -46,10 +46,10 @@ ul {
   flex-direction: row;
   list-style-type: none;
   direction: rtl;
-  padding-top: 20px;
+  padding-top: 75px;
+  padding-right: 10px;
 }
 
 li {
   padding-left: 10px;
-  padding-top: 20px;
 }
