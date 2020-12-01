@@ -31,6 +31,7 @@ import { AnotherStickFightVideoComponent } from './movie-theater-videos/another-
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { CalculatorAppComponent } from './calculator-app/calculator-app.component';
 import { GameroomAppComponent } from './gameroom-app/gameroom-app.component';
+import { TicTacToeGameComponent } from './tic-tac-toe-game/tic-tac-toe-game.component';
 // import { YouTubePlayer, YouTubePlayerModule } from '@angular/youtube-player';
 
 @NgModule({
@@ -56,6 +57,7 @@ import { GameroomAppComponent } from './gameroom-app/gameroom-app.component';
     LandingPageComponent,
     CalculatorAppComponent,
     GameroomAppComponent,
+    TicTacToeGameComponent,
   ],
   imports: [
     BrowserModule,

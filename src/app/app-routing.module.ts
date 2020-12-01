@@ -1,3 +1,4 @@
+import { TicTacToeGameComponent } from './tic-tac-toe-game/tic-tac-toe-game.component';
 import { GameroomAppComponent } from './gameroom-app/gameroom-app.component';
 import { CalculatorAppComponent } from './calculator-app/calculator-app.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
@@ -35,7 +36,8 @@ const routes: Routes = [
   {path: 'anotherStickFight', component: AnotherStickFightVideoComponent},
   {path: 'landingPage', component: LandingPageComponent},
   {path: 'calculator', component: CalculatorAppComponent},
-  {path: 'gameroom', component: GameroomAppComponent}
+  {path: 'gameroom', component: GameroomAppComponent},
+  {path: 'ticTacToe', component: TicTacToeGameComponent},
 ];
 
 @NgModule({

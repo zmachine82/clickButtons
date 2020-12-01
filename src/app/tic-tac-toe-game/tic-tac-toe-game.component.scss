@@ -1,0 +1,70 @@
+.main-container {
+  background: rgb(253, 253, 113);
+  height: 100vh;
+  width: 86vw;
+  .gameboard {
+    // margin-top: 10px;
+    // margin-left: 20%;
+    height: 77%;
+    width: 100%;
+    background: linear-gradient(to right, hotpink, white, hotpink);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .player-one {
+      p {
+        color: rgb(255, 145, 0)
+      }
+    }
+
+    .player-two {
+      p {
+        color: rgb(0, 253, 135)
+      }
+    }
+    .gamefield {
+      display: flex;
+      margin-top: 30px;
+      height: 76%;
+      background: grey;
+      .subfield {
+        cursor: pointer;
+        height: 170px;
+        width: 170px;
+        border: 1px solid white;
+        &.player-one {
+            background: rgb(255, 145, 0)
+        }
+
+
+        &.player-two {
+            background: rgb(0, 253, 135)
+        }
+      }
+    }
+  }
+  .start-game-button {
+    left: 46%;
+  }
+  .playerNames {
+    font-family: PermanentMarker-Regular;
+    font-size: 100px;
+    padding-top: 40%;
+  }
+
+  .row {
+    height: 30%;
+  }
+
+  .players {
+    font-family: Lobster-Regular;
+    font-size: 60px;
+  }
+
+  .ticTacToeTitle {
+    font-family: Lobster-Regular;
+    font-size: 100px;
+    padding-top: 5%;
+  }
+}
