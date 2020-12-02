@@ -1,3 +1,4 @@
+import { transition } from '@angular/animations';
 export function setScreenDimensions(hideSideNav) {
 
     //Adjust movie screen dimensions when toggling sidebar

@@ -13,6 +13,7 @@
     flex-direction: column;
     align-items: center;
     font-family: 'Codystar-Regular';
+    // text-shadow: 0px 22px 12px rgb(241, 241, 154);
     font-size: 75px;
     font-weight: bold;
     color: rgb(247, 247, 141);
@@ -37,5 +38,5 @@
   border-width: 8px;
   border-radius: 10px;
   margin-left: 15%;
-  // background: radial-gradient(silver,black);
+  transition-duration: 0.3s;
 }
