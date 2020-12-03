@@ -1,8 +1,8 @@
 .calculator-page-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
-  padding-top: 7%;
+  justify-content: center;
+  padding-top: 7.1%;
   // padding-left: 1%;
   height: 88vh;
   width: 86vw;
@@ -13,50 +13,55 @@
 
 .calculator5000 {
   font-family: Dark_Future_Italic;
-  position: absolute;
-  left: 20%;
+  height: 9%;
+  padding-top: 4%;
+  margin-top: -6%;
+  margin-left: 4%;
   color: red;
   font-size: 160px;
-  text-shadow: 16px 6px 10px white;
-  background: fade-in($color: black, $amount: 0);
+  text-shadow: 16px 10px 10px yellow;
+  // background: fade-in($color: black, $amount: 0);
+  background: black;
 }
 
 .calculator {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  margin-top: 6%;
-  height: 70%;
+  margin-left: 4%;
+  padding-right: 1.2%;
+  height: 75.3%;
   width: 42%;
-  background: rgb(245, 185, 250);
+  background: black;
   border-style: solid;
-  border-width: 12px;
-  border-color: rgb(255, 153, 0);
+  border-width: 15px;
+  border-color: red;
   border-radius: 8px;
+  box-shadow: 0px 0px 40px 20px red;
 }
 
 .maindisplay {
   display: flex;
   justify-content: flex-end;
   height: 10%;
-  // width: 100%;
-  background: rgb(185, 250, 120);
+  width: 100%;
+  background: radial-gradient(white,green);
   font-size: 40px;
   padding: 10px;
-  color: grey;
+  color: black;
 }
 
 .subdisplay {
   display: flex;
   justify-content: flex-end;
   height: 60px;
-  // width: 100%;
-  background: #f1fc62;
+  width: 100%;
+  background: radial-gradient(white, hotpink);
   font-size: 30px;
   padding: 10px;
   border-style: solid;
   border-width: 2px;
-  color: grey;
+  color: black;
 }
 
 .keypad {
@@ -66,12 +71,13 @@
 
 .keys {
   margin: 0;
-  width: 16.6%;
-  height: 8%;
+  width: 25%;
+  height: 20%;
   background: rgb(235, 234, 234);
   color: black;
   border-style: solid;
   border-width: 1px;
+  border-radius: 10px;
   padding: 4%;
   font-size: 2rem;
   text-align: center;

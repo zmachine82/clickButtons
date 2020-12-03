@@ -4,8 +4,7 @@
   background-image: url("/assets/images/randomPictures/welcomePinkAndBlue.jpg");
   background-size: 100%;
   height: 100vh;
-  width: 86vw;
-  // max-width: 100vw;
+  min-width: 86vw;
 }
 
 h1 {
