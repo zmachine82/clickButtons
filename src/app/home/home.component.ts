@@ -16,34 +16,13 @@ export class HomeComponent implements OnInit {
   randomPic: string;
   randomAudioClip: string;
   isVisible: boolean = true;
-  size: number = 100;
-  sealevel: number = 0
+  size: number = 115;
+  sealevel: number = 0;
+  currentJoke: string;
 
   constructor() { }
 
   ngOnInit(): void {
-  }
-
-
-  vanishButton() {
-    this.isVisible = !this.isVisible
-  }
-
-  changePicture() {
-    const randomPicArray = [
-      './assets/images/owen_wilson/wow.jpg',
-      './assets/images/owen_wilson/wow_2.jpg',
-      './assets/images/owen_wilson/wow_3.jpg',
-      './assets/images/owen_wilson/wow_4.jpg',
-      './assets/images/owen_wilson/wow_5.jpg',
-      './assets/images/owen_wilson/wow_6.jpg',
-      './assets/images/owen_wilson/wow_7.jpg',
-      './assets/images/owen_wilson/wow_8.jpg',
-      './assets/images/owen_wilson/wow_9.jpg',
-      './assets/images/owen_wilson/wow_10.jpg',
-      './assets/images/owen_wilson/wow_11.jpg'
-    ];
-    this.randomPic = randomPicArray[Math.floor(Math.random() * randomPicArray.length)]
   }
 
   switchBackground() {
@@ -56,6 +35,11 @@ export class HomeComponent implements OnInit {
       'red',
       'pink',
       'lightgreen',
+      'lightblue',
+      'lightpurple',
+      'cyan',
+      'magenta',
+      'lightorange'
     ];
     this.randomColor = randomColorArray[Math.floor(Math.random() * randomColorArray.length)]
 }
@@ -97,12 +81,25 @@ export class HomeComponent implements OnInit {
     this.buttonBackgroundColor = randomButtonBackgroundColorArray[Math.floor(Math.random() * randomButtonBackgroundColorArray.length)]
   }
 
-  audioPlay(){
-
-  }
-
   enlarge() {
     this.size += 10
+  }
+
+  changePicture() {
+    const randomPicArray = [
+      './assets/images/owen_wilson/wow.jpg',
+      './assets/images/owen_wilson/wow_2.jpg',
+      './assets/images/owen_wilson/wow_3.jpg',
+      './assets/images/owen_wilson/wow_4.jpg',
+      './assets/images/owen_wilson/wow_5.jpg',
+      './assets/images/owen_wilson/wow_6.jpg',
+      './assets/images/owen_wilson/wow_7.jpg',
+      './assets/images/owen_wilson/wow_8.jpg',
+      './assets/images/owen_wilson/wow_9.jpg',
+      './assets/images/owen_wilson/wow_10.jpg',
+      './assets/images/owen_wilson/wow_11.jpg'
+    ];
+    this.randomPic = randomPicArray[Math.floor(Math.random() * randomPicArray.length)]
   }
 
   owenWilsonAudio() {
@@ -129,13 +126,31 @@ export class HomeComponent implements OnInit {
     audio.play();
   }
 
+  playBackgroundVideo() { //play virus video on background page
+
+  }
+
+  vanishButton() {
+    this.isVisible = !this.isVisible
+  }
 
   fillWithWater() {
     this.sealevel += 200
   }
 
-  playBackgroundVideo() { //play virus video on background page
-
+  bringMeAJoke() {
+    const randomJokeArray=[
+      "Don't use beef stew as a computer password. It's not stroganoff.",
+      "Why are iPhone chargers not called Apple Juice?!",
+      "How does a computer get drunk? A. It takes screenshots.",
+      "When life gives you melons, you might be dyslexic.",
+      "I don’t suffer from insanity—I enjoy every minute of it.",
+      "Atheism is a non-prophet organization.",
+      "I didn’t think orthopedic shoes would help, but I stand corrected.",
+      "If attacked by a mob of clowns, go for the juggler.",
+      "The man who invented Velcro has died. RIP."
+    ]
+    this.currentJoke = randomJokeArray[Math.floor(Math.random() * randomJokeArray.length)]
   }
 
 }

@@ -2,6 +2,7 @@
   <ng-content select="[button-container-background]"></ng-content>
   <!-- <app-authorised-side-nav></app-authorised-side-nav> -->
   <h2 class="letsClickButtons">try out some buttons!</h2>
+
 <div class="button-container">
   <div id="color-container" [ngStyle]="{ 'background-color': randomColor }">
     <p id="color-title">Color Changer</p>
@@ -15,6 +16,7 @@
     <button mat-raised-button (click)="switchButtonBackgroundColor()" [ngStyle]="{background: buttonBackgroundColor}">Button Background</button>
   </div>
   <br />
+
   <div id="owen-wilson-container">
     <p>Owen Wilson Button</p>
     <mat-divider></mat-divider>
@@ -25,6 +27,7 @@
     <!-- <img style="display:none;" id="defaultPic" src="./assets/images/wow.jpg";/> -->
   </div>
   <br />
+
   <div id="size-button-container" [style.height]="size + 'px'">
     <p>Size Button</p>
     <mat-divider></mat-divider>
@@ -33,6 +36,7 @@
     </button>
   </div>
   <br />
+
   <div id="video-container">
     <p>Video Background</p>
     <mat-divider></mat-divider>
@@ -41,6 +45,7 @@
     </button>
   </div>
   <br/>
+
     <div id="vanishing-container" [ngClass]= "{ 'magicTrick' : !isVisible, 'easeIn': isVisible }">
     <p>Disappear</p>
     <mat-divider></mat-divider>
@@ -50,6 +55,7 @@
       </button>
     <!-- </div> -->
   </div>
+
   <div id="flood-container" >
     <p>Fill BG with Water</p>
     <mat-divider></mat-divider>
@@ -58,13 +64,16 @@
     </button>
     <!-- <img class="theFlood" src="./assets/images/randomPictures/oceanWater.jpg"> -->
   </div>
-  <div id="random-container">
+
+  <div id="joke-generator-container">
     <p>Joke Generator</p>
     <mat-divider></mat-divider>
-    <button mat-raised-button>
+    <button mat-raised-button (click)="bringMeAJoke()">
       Make Me Laugh
     </button>
+    <p class="jokeBox">{{currentJoke}}</p>
   </div>
+
   <div id="random-container">
     <p>Random Button</p>
     <mat-divider></mat-divider>
@@ -72,6 +81,7 @@
       Randomize
     </button>
   </div>
+
   <div id="random-container">
     <p>GIF me a Break</p>
     <mat-divider></mat-divider>
@@ -79,6 +89,7 @@
       Break me off a GIF
     </button>
   </div>
+
   <div id="random-container">
     <p>Calculator?</p>
     <mat-divider></mat-divider>
@@ -86,6 +97,7 @@
       Import Calc Api
     </button>
   </div>
+
   <div id="random-container">
     <p>Advanced Function</p>
     <mat-divider></mat-divider>
@@ -93,6 +105,7 @@
       Plot DataPoints?
     </button>
   </div>
+
   <div id="random-container">
     <p>Play BlackJack</p>
     <mat-divider></mat-divider>
